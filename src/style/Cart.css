@@ -1,0 +1,31 @@
+/* .cart-page {
+    @apply p-6;
+}
+
+.cart-empty {
+    @apply text-center text-lg text-gray-600;
+}
+
+.cart-summary {
+    @apply mt-8 bg-gray-100 p-4 rounded shadow-md;
+}
+
+.cart-subtotal {
+    @apply text-lg font-bold;
+} */
+
+.cart-page {
+    @apply p-6;
+}
+
+.cart-empty {
+    @apply text-center text-lg text-gray-600;
+}
+
+.cart-summary {
+    @apply mt-8 bg-gray-100 p-4 rounded shadow-md;
+}
+
+.cart-subtotal {
+    @apply text-lg font-bold;
+}

@@ -1,0 +1,21 @@
+/* CartItem.css */
+.cart-item {
+    @apply flex flex-col md:flex-row justify-between items-center border-b py-4;
+}
+
+.cart-item-image {
+    @apply w-16 h-16 object-cover rounded-md;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.cart-item-name {
+    @apply flex-1 ml-4 text-center md:text-left;
+}
+
+.quantity-btn {
+    @apply px-2 py-1 bg-gray-300 rounded hover:bg-gray-400;
+}
+
+.remove-btn {
+    @apply ml-4 text-red-500 hover:text-red-700;
+}

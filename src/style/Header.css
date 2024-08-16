@@ -1,0 +1,16 @@
+/* Header.css */
+.header {
+    @apply bg-gray-800 text-white p-4 flex flex-col sm:flex-row justify-between items-center;
+}
+
+.header-title {
+    @apply text-xl font-bold;
+}
+
+.cart-icon {
+    @apply relative;
+}
+
+.cart-count {
+    @apply bg-red-500 text-white rounded-full px-2 py-1 text-xs;
+}
